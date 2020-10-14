@@ -1,24 +1,15 @@
-# paisesvue
+# Paises - Vue.js
 
-## Project setup
-```
-npm install
-```
+Aplicacion web de paises realizada con Vue.js, Material Design Bootstrap 4 utilizando la API [Rest Countries](http://restcountries.eu/).
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Instalar dependencias
+Ejecutar en terminal comando: `npm install`.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Iniciar proyecto
+Ejecutar en terminal el comando `npm run serve` e introducir en el navegador `http://localhost:8080/`.
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Compilar para produccion
+`npm run build`
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Ayuda
+Para mas informacion, [Vue-cli](https://cli.vuejs.org/config/).

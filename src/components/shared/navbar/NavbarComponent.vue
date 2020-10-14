@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-navbar toggleable="lg" type="light" variant="light" class="navbar navbar-expand-lg navbar-dark bg-custom">
+        <b-navbar toggleable="lg" type="light" variant="light" class="navbar navbar-expand-lg navbar-dark bg-custom mb-2">
                 <router-link :to="'/home'">
                     <img src="../../../assets/img/logo.png" width="30" height="30" title="Paises" alt="Paises">
                 </router-link>

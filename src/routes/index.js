@@ -4,6 +4,7 @@ import VueRouter from 'vue-router';
 
 // Componentes
 import HomeComponent from '../components/home/HomeComponent.vue';
+import ErrorComponent from '../components/shared/error/ErrorComponent.vue';
 
 // ---------------------------------------------------------------//
 // Configuracion del enrutamiento                                 //
@@ -13,7 +14,7 @@ Vue.use(VueRouter);
 const routes = [
     {path: '/', component: HomeComponent},
     {path: '/home', component: HomeComponent},
-    {path: '*', component: HomeComponent }
+    {path: '*', component: ErrorComponent }
 ];
 
 const router = new VueRouter({
